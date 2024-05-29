@@ -1,0 +1,468 @@
+/* ------------custom css------------ */
+
+/* oswald-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/oswald-v53-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* oswald-500 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/oswald-v53-latin-500.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* oswald-600 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/oswald-v53-latin-600.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* oswald-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/oswald-v53-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/raleway-v34-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* raleway-500 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/raleway-v34-latin-500.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* raleway-600 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/raleway-v34-latin-600.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/raleway-v34-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* raleway-800 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/raleway-v34-latin-800.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* raleway-900 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/raleway-v34-latin-900.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* -----body css---- */
+
+body h1,
+h2,
+h3,
+h4,
+h5 {
+  color: aliceblue;
+  font-family: "oswald";
+  align-items: center;
+}
+
+/* -------First section css----- */
+
+.newslwttwr {
+  background-color: #002442;
+  background-image: url(../images/Untitled-1.png);
+  background-repeat: no-repeat;
+  height: 1050px;
+  width: 816px;
+  margin: auto;
+}
+
+.new_letter{
+  display: flex;
+  justify-content: space-between;
+}
+
+.newslwttwr h1 {
+  padding: 20px 0 0 30px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 7px;
+}
+
+.newslwttwr p {
+  color: aliceblue;
+  margin: 0;
+  position: absolute;
+  padding: 0 30px;
+  letter-spacing: 1.5px;
+  font-family: 'oswald';
+}
+
+.newslwttwr h2 {
+  color: aliceblue;
+  padding: 15px 20px;
+}
+
+.news_right {
+  background-image: linear-gradient(#0de6e8, #00acdd, #0085d6, #525cd6);
+  height: 100px;
+  width: 297px;
+}
+
+.down-arrow {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid #002442;
+  position: absolute;
+  top: 9px;
+  left: 558px;
+}
+.newslwttwr h5
+{
+  color: aliceblue;
+  font-size: 20px;
+  margin: 30px;
+  font-family: "raleway";
+}
+
+/* ----------Second section------ */
+.sec_section{
+  padding-top: 150px;
+  padding-left: 50px;
+  font-family: "oswald";
+}
+.sec_section h2
+{
+  font-size: 48px;
+  font-weight: 400;
+
+}
+.sec_section .main_sec
+{
+  font-size: 72px;
+  letter-spacing: 5px;
+  padding: 0;
+  margin: 0;
+}
+.sec_section .sec_sec
+{
+  font-size: 40px;
+  letter-spacing: 24px;
+  padding: 0;
+  margin-top: -20px;
+}
+
+.sec_section p{
+  font-size: 98px;
+  padding: 0;
+  margin-top: -15px;
+  letter-spacing: 10px;
+  color: #6DC1FC;
+  font-family: 'oswald';
+  font-weight: 900;
+}
+
+.sec_section h4
+{
+  color: aliceblue;
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 140px;
+}
+
+/* ------------third section------ */
+.third_sec
+{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+.third_sec h1{
+  font-size: 40px;
+  letter-spacing: 1px;
+  padding: 0;
+}
+.third_sec p
+{
+  max-width: 400px;
+  font-family: 'oswald';
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-style: italic;
+  padding: 0;
+  margin-top: 10px;
+  
+}
+.third_sec .third_right{
+  background-image: linear-gradient(#47e2fd, #4497f7, #7e4dfc);
+  opacity: 6;
+  width: 200px;
+  height: 155px;
+  margin: 80px 30px;
+}
+.third_sec .third_right::before{
+  content: "";
+  width: 0; 
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 30px solid #4497f7;
+  margin-top: 45px;
+  position: absolute;
+  right: 590px;
+}
+.third_right h4{
+  margin: 5px 20px;
+}
+.third_right p{
+  max-width: 155px;
+  padding: 0;
+  margin: 10px 22px;
+}
+
+/* -----------footer section-------- */
+.footer_sec{
+  width: 756px;
+  padding: 10px 30px;
+  background-image: linear-gradient(#66dffd, #0084d6);
+  position: absolute;
+  bottom: -285px;
+  display: flex;
+  flex-wrap: wrap;
+  color: aliceblue;
+  justify-content: space-between;
+}
+.footer_sec i{
+  color: aliceblue;
+  margin: 0 10px;
+
+}
+
+
+/* -------------media query start---------- */
+@media only screen and (max-width: 600px){
+body{
+      /* background-color: #002442; */
+      background-image: url(../images/Untitled-1.png);
+      background-repeat: no-repeat;
+      height: 1050px;
+      margin: auto;
+      z-index: -1;
+}
+.news_right {
+    background-image: linear-gradient(#0de6e8, #00acdd, #0085d6, #525cd6);
+    padding: 0 10px;
+    height: 70px;
+    width: 200px;
+}
+.down-arrow {
+  width: 0;
+  height: 0;
+  border-left: 73px solid transparent;
+  border-right: 73px solid transparent;
+  border-bottom: 73px solid #002442;
+  position: absolute;
+  top: -2px;
+  left: 145px;
+}
+.new_letter{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 45px;
+}
+.newslwttwr h1 {
+  padding: 10px 0 0 15px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 3px;
+}
+.newslwttwr p {
+  color: aliceblue;
+  margin: 0;
+  position: absolute;
+  font-size: 12px;
+  padding: 0 15px;
+  letter-spacing: 1px;
+  font-family: 'oswald';
+}
+.new_letter .news_left h5 {
+  color: aliceblue;
+  padding: 8px 10px;
+  margin: 0;
+  position: fixed;
+  right: 30px;
+  top: 25px;
+  font-size: 18px;
+}
+.sec_section{
+  padding-top: 80px;
+  padding-left: 50px;
+  font-family: "oswald";
+}
+.sec_section h2
+{
+  font-size: 48px;
+  font-weight: 400;
+
+}
+.sec_section .main_sec
+{
+  font-size: 72px;
+  letter-spacing: 5px;
+  padding: 0;
+  margin: 0;
+}
+.sec_section .sec_sec
+{
+  font-size: 40px;
+  letter-spacing: 24px;
+  padding: 0;
+  margin-top: -20px;
+}
+.sec_section p{
+  font-size: 95px;
+  padding: 0;
+  margin-top: -15px;
+  letter-spacing: 10px;
+  color: #6DC1FC;
+  font-family: 'oswald';
+  font-weight: 900;
+}
+.sec_section h4
+{
+  color: aliceblue;
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 130px;
+}
+.third_sec
+{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  padding-top: 80px;
+}
+.third_sec h1{
+  font-size: 28px;
+  letter-spacing: 1px;
+  padding: 0;
+}
+.third_sec p
+{
+  max-width: 300px;
+  font-family: 'oswald';
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-style: italic;
+  padding: 0;
+  margin-top: 10px;
+}
+.third_sec .third_right{
+  background-image: linear-gradient(#47e2fd, #4497f7, #7e4dfc);
+  opacity: 6;
+  width: 215px;
+  height: 155px;
+  position: fixed;
+  right: 50px;
+  margin: 80px 30px;
+}
+.third_sec .third_right::before{
+  content: "";
+  width: 0; 
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 30px solid #4497f7;
+  margin-top: 45px;
+  position: absolute;
+  right: 212px;
+}
+.third_right h4{
+  margin: 5px 20px;
+}
+.third_right p{
+  max-width: 155px;
+  padding: 0;
+  margin: 10px 22px;
+}
+.newslwttwr .footer_sec{
+  width: 756px;
+  padding: 10px 30px;
+  height: 20px;
+  background-image: linear-gradient(#66dffd, #0084d6);
+  position: fixed;
+  /* bottom: 0px; */
+  top: 1085px;
+  color: aliceblue;
+}
+}
+/* -------------media query end---------- */
+
+
+
+
+
+
